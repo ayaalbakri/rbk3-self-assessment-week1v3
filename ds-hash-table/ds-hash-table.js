@@ -6,11 +6,32 @@ var makeHashTable = function() {
       _storage: [],
       retrieve: function(key) {
         return this._storage[hashFn(key, max)];
+        if (storage[hashFn(key, max)] = key) {
+        //   var newParent = [];
+        //   var newChild = [];
+        //  newParent.push(newChild);
+        //  storage[hashFn(key, max)] = newParent;
+        //  return ;
+        // }
+        // else {
+        //   storage[hashFn(key, max)].push(newChild);
+        // }
       },
 
       insert: function(key, value) {
         //your code is here
         this._storage[hashFn(key, max)] = value;
+         if (storage[hashFn(key, max)] === undefined]) {
+          var newParent = [];
+          var newChild = [];
+         newParent.push(newChild);
+         storage[hashFn(key, max)] = newParent;
+         return ;
+        }
+        else {
+          storage[hashFn(key, max)].push(newChild);
+        }
+
     }
   }
 };

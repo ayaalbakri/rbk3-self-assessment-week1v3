@@ -6,4 +6,4 @@ Please write your explanation below.
 (queue ---- first in first Out ) 
 (stack ---- first in last Out ) 
 example of queue ----- The school queue
-example of queue ----- dish washing
+example of stack ----- dish washing
